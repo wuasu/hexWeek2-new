@@ -1,0 +1,234 @@
+body{
+    font-family: 'Bruno Ace SC', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #000000;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1296px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+
+
+/* Header*/
+.nav_list{
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;  
+}
+.nav_item{
+    color: white;
+}
+.list_item a:hover {
+    opacity: 0.7;
+}
+
+/* main-banner*/
+.banner{
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+.bn-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    width: 50%;
+    color: white;
+}
+.text .hi{
+    font-size: 64px;
+}
+.text .name {
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    border-radius: 32px;
+    padding: 12px 24px;
+    column-gap: 5px;
+    margin-left: auto;
+    background-color: #ffff;
+}
+
+/* main-intro */
+.section .container{
+    padding: 160px 0px;
+}
+
+.section_img{
+    block-size: cover;
+    background-repeat: no-repeat;
+}
+.intro-box .main_title {
+    width: 526px;
+}
+.main_title h2{
+    font-size: 64px;
+    color: #ffff;
+}
+.intro-box .main_title p {
+    font-size: 24px;
+    color: #ffff;
+    margin-top: 36px;
+}
+.intro-box .sparkle_group {
+    width: 128px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-box .pic_group {
+    width: 746px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main-aboutMe */
+.aboutMe-box{
+    background-color: #fff;
+}
+.aboutMe-box .container {
+    /* display: flex; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutMe-box .main_title {
+    width: 526px;
+    color: #000000;
+}
+.aboutMe-box .main_title h2{
+    width: 526px;
+    font-size: 64px;
+    color: #000000;
+}
+.aboutMe-box .main_title p {
+    font-size: 24px;
+}
+.aboutMe-box .questions {
+    width: 636px;
+    flex-wrap: wrap;
+    margin-top: 46px;
+    gap: 24px;
+}
+.aboutMe-box  .item {
+    width: 306px;
+    padding: 16px;
+}
+.aboutMe-box .questions .item span,
+.aboutMe-box .questions .item h3 {
+    font-size: 20px;
+}
+.aboutMe-box .main_content .item {
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.08);
+    color: #15161D;
+}
+
+/* main-contactMe */
+.contactMe-box{
+background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+padding: 96px 0px;
+}
+
+.contactMe-box .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactMe-box .main_title{
+    width: 657px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 64px;
+}
+.contactMe-box .main_content {
+    width: 526px;
+
+}
+.contactMe-box .main_content ul {
+    display: flex;
+    justify-content: space-between;
+}
+.contactMe-box .main_content ul li{
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+}
+.contactMe-box .main_content ul li:hover {
+    box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
+    transition: 1s;
+}
+
+
+/* main-myProjects */
+.myProjects-box{
+    background-color: #fff;
+}
+.myProjects-box .main_title {
+    width: 746px;
+    font-size: 64px;
+    margin-left: auto;
+}
+.myProjects-box .main_title h2{
+color: #000000;
+}
+
+.myProjects-box .main_content {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    /* border: #4b0c43 1px solid; */
+}
+
+.myProjects-box .pic {
+    width: 416px;
+}
+
+.myProjects-box .work {
+    width: 856px;
+    display: flex;
+    column-gap: 24px;
+    color: #15161d;
+}
+
+.myProjects-box .pic2 {
+    display: flex;
+    column-gap: 24px;
+    width: 856px;
+    margin-top: 28px;
+}
+
+.myProjects-box .work-desc {
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myProjects-box .work-desc .btn {
+    margin-left: 0;
+    margin-top: auto;
+    color: #fff;
+    background-color: #000000;
+}
+.footer p{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0px;
+}
